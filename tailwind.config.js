@@ -1,9 +1,10 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     './app/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
-    './intro-template/**/*.{js,ts,jsx,tsx}',
     './pages/**/*.{js,ts,jsx,tsx}',
     './plugins/**/*.{js,ts,jsx,tsx}',
   ],
@@ -26,6 +27,9 @@ module.exports = {
       },
       lineHeight: {
         tight: 1.2,
+      },
+      fontFamily: {
+        sans: ['DM Sans', ...defaultTheme.fontFamily.sans],
       },
       fontSize: {
         '5xl': '2.5rem',
