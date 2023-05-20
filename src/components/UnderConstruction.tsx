@@ -16,8 +16,8 @@ const UnderConstruction = () => {
           Under Maintenance
         </h1>
         <p className="font-light text-gray-500 dark:text-gray-400 md:text-lg xl:text-xl">
-          I&apos;m currently building a new portfolio site. Check back soon to
-          see the updates! ‍💻
+          Thank you for visiting my site! I&apos;m currently building a new
+          portfolio. Please check back soon to see the updates! ‍💻
         </p>
       </div>
     </section>
