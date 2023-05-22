@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/logo.svg" />
       </Head>
       {process.env.NODE_ENV === "development" ? (
-        <div>Dev Mode BAYBEE</div>
+        <section>Home</section>
       ) : (
         <UnderConstruction />
       )}
