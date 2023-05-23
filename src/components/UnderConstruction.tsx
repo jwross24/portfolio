@@ -1,9 +1,9 @@
 const UnderConstruction = () => {
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section>
       <div className="mx-auto max-w-screen-md px-4 py-8 text-center lg:px-12 lg:py-16">
         <svg
-          className="mx-auto mb-4 h-10 w-10 text-gray-400"
+          className="mx-auto mb-4 h-10 w-10 text-slate-400"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 512 512"
         >
@@ -13,9 +13,9 @@ const UnderConstruction = () => {
           />
         </svg>
         <h1 className="mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:mb-6 xl:text-6xl">
-          Under Maintenance
+          Under Construction
         </h1>
-        <p className="font-light text-gray-500 dark:text-gray-400 md:text-lg xl:text-xl">
+        <p className="font-light text-slate-500 dark:text-slate-400 md:text-lg xl:text-xl">
           Thank you for visiting my site! I&apos;m currently building a new
           portfolio. Please check back soon to see the updates! ‍💻
         </p>
