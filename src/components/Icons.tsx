@@ -5,14 +5,13 @@ interface IconProps {
   };
 }
 
-export const GithubIcon = ({ className = "", ...rest }: IconProps) => (
+export const GithubIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     viewBox="0 0 512 512"
-    {...rest}
-    className={`h-auto w-full ${className}`}
+    className="h-auto w-full"
   >
     <path fill="none" d="M0 0h512v512H0z" />
     <path
@@ -22,14 +21,13 @@ export const GithubIcon = ({ className = "", ...rest }: IconProps) => (
   </svg>
 );
 
-export const TwitterIcon = ({ className = "", ...rest }: IconProps) => (
+export const TwitterIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     viewBox="0 0 256 209"
-    {...rest}
-    className={`h-auto w-full ${className}`}
+    className="h-auto w-full"
   >
     <path fill="none" d="M0 0h256v209H0z" />
     <path
@@ -39,14 +37,13 @@ export const TwitterIcon = ({ className = "", ...rest }: IconProps) => (
   </svg>
 );
 
-export const LinkedInIcon = ({ className = "", ...rest }: IconProps) => (
+export const LinkedInIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     viewBox="0 0 256 256"
-    {...rest}
-    className={`h-auto w-full ${className}`}
+    className="h-auto w-full"
   >
     <path fill="none" d="M0 0h256v256H0z" />
     <g fill="none">
@@ -60,14 +57,13 @@ export const LinkedInIcon = ({ className = "", ...rest }: IconProps) => (
   </svg>
 );
 
-export const PinterestIcon = ({ className = "", ...rest }: IconProps) => (
+export const PinterestIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     viewBox="0 0 256 256"
-    {...rest}
-    className={`h-auto w-full ${className}`}
+    className="h-auto w-full"
   >
     <path fill="none" d="M0 0h256v256H0z" />
     <path
@@ -77,14 +73,13 @@ export const PinterestIcon = ({ className = "", ...rest }: IconProps) => (
   </svg>
 );
 
-export const DribbbleIcon = ({ className = "", ...rest }: IconProps) => (
+export const DribbbleIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     viewBox="0 0 256 256"
-    {...rest}
-    className={`h-auto w-full ${className}`}
+    className="h-auto w-full"
   >
     <path fill="none" d="M0 0h256v256H0z" />
     <path
