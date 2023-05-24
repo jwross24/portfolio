@@ -48,7 +48,7 @@ const Home: NextPage = () => {
                     href="/Jonathan Ross - Software Engineer 2023 Resume.pdf"
                     target="_blank"
                     download={true}
-                    className="flex items-center rounded-lg border-2 border-transparent bg-slate-900 p-2.5 px-6 text-lg font-semibold text-slate-100 hover:border-slate-900 hover:bg-slate-100 hover:text-slate-900"
+                    className="flex items-center rounded-lg border-2 border-transparent bg-slate-900 p-2.5 px-6 text-lg font-semibold text-slate-100 transition-colors duration-300 hover:border-slate-900 hover:bg-slate-100 hover:text-slate-900"
                   >
                     Résumé <LinkArrow className="ml-1 w-6" />
                   </Link>

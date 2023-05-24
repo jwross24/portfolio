@@ -2,6 +2,7 @@ import { type AppType } from "next/dist/shared/lib/utils";
 import { Montserrat } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 
+import Footer from "~/components/Footer";
 import Navbar from "~/components/Navbar";
 import "~/styles/globals.css";
 
@@ -14,6 +15,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
     >
       <Navbar />
       <Component {...pageProps} />
+      <Footer />
       <Analytics />
     </main>
   );
