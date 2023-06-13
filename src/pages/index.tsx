@@ -36,7 +36,7 @@ const Home: NextPage = () => {
                 className="!text-left !text-6xl"
               />
               <p className="my-4 text-base font-medium">
-                As a seasoned software developer, I bring a wealth of experience
+                As a skilled software developer, I bring a wealth of experience
                 in building seamless user experiences. Dive into my latest
                 projects, where I combine my technical skills with an eye for
                 design to deliver elegant and intuitive applications.

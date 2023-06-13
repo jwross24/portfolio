@@ -4,14 +4,13 @@ import { useRouter } from "next/router";
 interface SiteLinkProps {
   href: string;
   title: string;
-  className: string;
 }
 
-const SiteLink = ({ href, title, className }: SiteLinkProps) => {
+const SiteLink = ({ href, title }: SiteLinkProps) => {
   const router = useRouter();
 
   return (
-    <Link href={href} className={`${className} group relative`}>
+    <Link href={href} className="group relative">
       {title}
 
       <span

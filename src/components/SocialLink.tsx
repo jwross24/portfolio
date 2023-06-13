@@ -3,11 +3,10 @@ import { type ReactElement } from "react";
 
 interface SocialLinkProps {
   href: string;
-  className: string;
   renderIcon: () => ReactElement;
 }
 
-const SocialLink = ({ href, className, renderIcon }: SocialLinkProps) => {
+const SocialLink = ({ href, renderIcon }: SocialLinkProps) => {
   const icon = renderIcon();
 
   return (
@@ -16,7 +15,7 @@ const SocialLink = ({ href, className, renderIcon }: SocialLinkProps) => {
       target="_blank"
       whileHover={{ y: -2 }}
       whileTap={{ scale: 0.9 }}
-      className={`${className} w-6`}
+      className="w-6"
     >
       {icon}
     </motion.a>
